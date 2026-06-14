@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#f7f7f5"/>
+  <style>
+    .box { fill:#ffffff; stroke:#2c3e50; stroke-width:2; rx:14; ry:14; }
+    .title { font:700 22px sans-serif; fill:#1f2d3a; }
+    .text { font:16px sans-serif; fill:#22313f; }
+    .small { font:14px sans-serif; fill:#3b4b5a; }
+    .arrow { stroke:#1f2d3a; stroke-width:3; marker-end:url(#m); fill:none; }
+  </style>
+  <defs>
+    <marker id="m" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#1f2d3a"/>
+    </marker>
+  </defs>
+  <text x="40" y="42" class="title">ESP32 WiFi Humidistat System Overview</text>
+  <rect x="40" y="80" width="240" height="90" class="box"/>
+  <text x="60" y="112" class="text">Home Assistant / Thermostat</text>
+  <text x="60" y="138" class="small">Indoor control temperature</text>
+  <text x="60" y="160" class="small">Indoor control humidity</text>
+  <rect x="360" y="80" width="240" height="90" class="box"/>
+  <text x="380" y="112" class="text">OpenWeatherMap Forecast</text>
+  <text x="380" y="138" class="small">Next 24h outdoor low</text>
+  <rect x="680" y="80" width="240" height="90" class="box"/>
+  <text x="700" y="112" class="text">ESP32 Controller</text>
+  <text x="700" y="138" class="small">Window temperature model</text>
+  <text x="700" y="160" class="small">Magnus condensation limit</text>
+  <rect x="360" y="230" width="240" height="90" class="box"/>
+  <text x="380" y="262" class="text">Humidity Target Logic</text>
+  <text x="380" y="288" class="small">Headroom, ceiling, deadband</text>
+  <rect x="680" y="230" width="240" height="90" class="box"/>
+  <text x="700" y="262" class="text">Humidifier Relay Output</text>
+  <text x="700" y="288" class="small">Allowed only during heat call</text>
+  <path d="M280 125 L360 125" class="arrow"/>
+  <path d="M600 125 L680 125" class="arrow"/>
+  <path d="M800 170 L800 230" class="arrow"/>
+  <path d="M480 170 L480 230" class="arrow"/>
+</svg>

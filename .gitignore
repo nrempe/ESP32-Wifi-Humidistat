@@ -1,0 +1,6 @@
+.DS_Store
+.esphome/
+.venv/
+build/
+secrets.yaml
+*.log

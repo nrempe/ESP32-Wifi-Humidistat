@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#fbfbfa"/>
+  <style>
+    .box { fill:#fff; stroke:#2f3a46; stroke-width:2; rx:14; ry:14; }
+    .title { font:700 22px sans-serif; fill:#1f2d3a; }
+    .text { font:16px sans-serif; fill:#22313f; }
+    .wire { stroke:#1f2d3a; stroke-width:4; fill:none; }
+    .label { font:700 15px sans-serif; fill:#0f6c45; }
+  </style>
+  <text x="40" y="42" class="title">Furnace W Interlock Wiring</text>
+  <rect x="40" y="90" width="220" height="180" class="box"/>
+  <text x="60" y="122" class="text">Furnace Board</text>
+  <text x="70" y="165" class="text">W</text>
+  <text x="70" y="225" class="text">C</text>
+  <rect x="360" y="90" width="220" height="180" class="box"/>
+  <text x="380" y="122" class="text">ESP Relay</text>
+  <text x="390" y="165" class="text">COM</text>
+  <text x="390" y="225" class="text">NO</text>
+  <rect x="680" y="90" width="220" height="180" class="box"/>
+  <text x="700" y="122" class="text">Humidifier Solenoid</text>
+  <text x="700" y="155" class="text">24 VAC coil</text>
+  <path d="M100 160 L360 160" class="wire"/>
+  <path d="M470 160 L470 220 L680 220" class="wire"/>
+  <path d="M900 220 L900 300 L100 300 L100 220" class="wire"/>
+  <text x="120" y="318" class="label">Return to C terminal</text>
+</svg>
